@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+			<html lang="en">
+
+   			<head><!--head open-->
+      			<title>Dominion2</title>
+      			<link rel="stylesheet" type="text/css" href="Dominion2.css">
+            <script>
+            function change(input) {
+
+  var dollarCoins = 0;
+  var halfdollars = 0;
+  var quarters = 0;
+  var nickels = 0;
+  var dimes = 0;
+  var cents = 0;
+  var remainder = 0;
+  var pennies = 0;
+  
+    //your code here 
+    
+  
+  
+    while (input >= 1) {
+      dollarCoins++;
+      
+      input -= 1;
+      
+    }
+
+
+    while (input >= .5) {
+      halfdollars++;
+      
+      input -= .50;
+      
+    }
+
+
+    while (input >= .25) {
+      quarters++;
+      
+      input -= .25;
+      
+    }
+
+
+    while (input >= .10) {
+      dimes++;
+      
+      input -= .10;
+      
+    }
+
+
+    while (input >= .05) {
+      nickels++;
+      
+      input -= .05;
+      
+    }
+
+
+    while (input >= .0098) {
+      pennies++;
+      
+      input -= .01;
+      
+    }
+    
+  
+  console.log(input + " in least amount of coins: " )
+  console.log("dollars " + dollarCoins + " quarters " + quarters + "dimes " + dimes + "nickles " + nickels + "pennies " + pennies);
+}
+
+change(.03);
+            </script>
+
+   			</head><!--head close-->
+
+   	<body><!--body open-->
+       		<div id="wrapper"> <!--wrapper open-->
+
+         	<div id="header"><!--header open-->
+            	<img src="logo.png" />
+
+               		<form>
+                     	<input type="Text" name="Corporate">
+                     	<input type="Submit" value="Corporate">
+              	 	</form>
+         	</div><!--header close-->
+
+          <div id="navigationtop"> <!--navigationtop open-->
+            	<ul style="list-style-type: none;">
+            		<li><a href=""style="color:black;">Customers</a></li>
+            		<li><a href=""style="color:black;">Products</a></li>
+            		<li><a href=""style="color:black;">Investors</a></li>
+            		<li><a href=""style="color:black;">News</a></li>
+            		<li><a href=""style="color:black;">Careers</a></li>
+            		<li><a href=""style="color:black;">Civicsm</a></li>
+            		<li><a href=""style="color:black;">About Dominion</a></li>
+            	</ul>
+          </div> <!--navigationtop close-->
+
+
+          <div id="middlebluebox"><!--midlebluebox open-->
+
+          <div id="leftnavbox">
+
+          			<div id="inleftnavtopbox"><!--inleftnavtopbox open-->
+          				<p>Manage Your Account</p>
+          				<p>View/pay ebills, analyze usage and more.</p>
+          			</div> 
+                             <!--inleftnavtopbox close-->
+           				<form>
+                     		<input type="Text" name="user name">
+                     		<input type="Submit" value="username">
+               			</form>
+
+               					<p>Forgot user name?</p>
+
+               			<form>
+                     		<input type="Text" name="password">
+                     		<input type="Submit" value="Password">
+               			</form>
+
+               					<p>Forgot password?</p>
+
+               			<form>
+                     		<input type="Submit" value="register">
+               			</form>
+
+         
+          </div><!--leftnavbox close-->
+
+          <div id="picturebox">
+          		<img src="main_pic.png">
+          
+          </div>
+
+          <div id="leftnavbottombox">
+          	<img src="logo2.png"> 
+          </div>          	
+
+          </div><!--middlebluebox close-->
+
+          <div id="header2box"><!--header2box open-->
+          		<p><b>News Update: Dominion to build Solar Power Project in Georgia</b></p>
+          </div><!--header2box close-->
+
+         <div class="whitebox">
+          	<img src="data_center.png" alt="block" />
+          	<p>Dimension Data Center Services</p>
+          	<p>Data centers are a growing segment of our virginia customer base</p>
+		 </div>
+
+         <div class="whitebox">
+            <img src="green_solutions.png" alt="tree" />
+            <p>Green Solutions</p>
+            <p>Save money, use energy efficiently and help the environment.</p>
+         </div>
+
+         <div class="whitebox">
+         	<img src="promise.png" alt="tree" />
+         		<p>A Promise is a Promise</p>
+         		<p>If Gov. Malloy breaks his word, Connecticut electric rates could rise.</p>
+         </div>
+
+         <div id="lastbottombox"><!--lastbottombox open-->
+         	<ul style="list-style-type: none;">
+            		<li><a href=""style="color:black;">Help</a></li>
+            		<li><a href=""style="color:black;">Legal Terms and Conditions</a></li>
+            		<li><a href=""style="color:black;">Privacy</a></li>
+            		<li><a href=""style="color:black;">Para Servirlos</a></li>
+            		<li><a href=""style="color:black;">Contact us</a></li>
+            		<li><a href=""style="color:black;">Diversity</a></li>
+            		<li><a href=""style="color:black;"></a>NYSE:(April 3, 2013) D 58.75 +0.13</li>
+            	</ul>
+         </div><!--lastbottombox close-->
+
+      	</wrapper><!--wrapper close-->
+
+   </body><!--body close-->
+
+</html><!--html close-->
+   
+
+
+
+
